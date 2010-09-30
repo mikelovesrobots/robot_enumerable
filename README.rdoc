@@ -1,17 +1,31 @@
 = robot_enumerable
 
-Description goes here.
+robot_enumerable is a collection of a number of useful specialized methods for the Array and
+Hash classes.
 
+What does this mean?  It means that you can accomplish more with less code.  It means that
+the code you write is clearer and cleaner.  It's very ruby.
+
+    ["a", "b", "c", "a"].dupes?
+    # => true
+
+    ["Sarah", "SARAH", "sarah"].uniq_by { |x| x.downcase }
+    # => ["Sarah"]
+
+    select_options = [[:ca, "Canada"], [:usa, "United States"], [:mex, "Mexico"]]
+    select_options.bump_to_front { |abbr, label| abbr == :usa }
+    # => [[:usa, "United States"], [:ca, "Canada"], [:mex, "Mexico"]] 
+  
+    
 == Note on Patches/Pull Requests
  
-* Fork the project.
+* Fork the project on github
 * Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
+* Add tests for it if you really want to be a pal.
+* Commit, please do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+* Send me a pull request.  If I include it, I'll add you to the list of contributors in this readme file. 
 
 == Copyright
 
-Copyright (c) 2010 Mike Judge. See LICENSE for details.
+Copyright (c) 2010 Mike Judge (mikelovesrobots). See LICENSE for details.
