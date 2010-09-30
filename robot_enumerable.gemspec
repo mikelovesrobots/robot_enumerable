@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Judge"]
   s.date = %q{2010-09-29}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{robot_enumerable is a collection useful additions to the Array and Hash classes like #dupes?, #dupes_by, #uniq_by, #bump_to_front, and others. }
   s.email = %q{mikelovesrobots@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/robot_array.rb",
      "lib/robot_enumerable.rb",
+     "robot_enumerable.gemspec",
      "test/helper.rb",
      "test/test_robot_enumerable.rb"
   ]
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{robot_enumerable is a collection useful additions to the Array and Hash classes}
+  s.summary = %q{useful additions to the Array and Hash classes}
   s.test_files = [
     "test/helper.rb",
      "test/test_robot_enumerable.rb"
