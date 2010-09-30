@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "robot_enumerable"
-    gem.summary = %Q{TODO: one-line summary of your gem}
+    gem.summary = %Q{robot_enumerable is a collection useful additions to the Array and Hash classes}
     gem.description = %Q{TODO: longer description of your gem}
     gem.email = "mikelovesrobots@gmail.com"
     gem.homepage = "http://github.com/mikelovesrobots/robot_enumerable"

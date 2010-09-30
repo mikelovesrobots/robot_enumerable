@@ -1,7 +1,6 @@
 = robot_enumerable
 
-robot_enumerable is a collection of a number of useful specialized methods for the Array and
-Hash classes.
+robot_enumerable is a collection of useful additions to the Array and Hash classes.
 
 What does this mean?  It means that you can accomplish more with less code.  It means that
 the code you write is clearer and cleaner.  It's very ruby.
